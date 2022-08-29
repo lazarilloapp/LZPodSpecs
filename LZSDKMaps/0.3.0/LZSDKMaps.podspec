@@ -8,14 +8,13 @@ Pod::Spec.new do |s|
     s.homepage = 'https://lazarillo.app'
     s.swift_version = '5'
     s.platform = :ios
+    s.static_framework = true
+    s.requires_arc = true
     s.ios.deployment_target = '12.0'
-    s.ios.vendored_frameworks = "LZSDKMaps.xcframework"
     s.dependency 'Polyline', '5.0.2'
     s.dependency 'RxAlamofire'
     s.dependency 'Alamofire', '5.5.0'
     s.dependency 'RxCocoa', '~> 5.0'
     s.dependency 'RxSwift', '~> 5.0'
-    s.dependency 'MapLibre'
-    s.static_framework = true
-    s.requires_arc = true
+    s.ios.vendored_frameworks = 'LZSDKMaps.xcframework'
 end
