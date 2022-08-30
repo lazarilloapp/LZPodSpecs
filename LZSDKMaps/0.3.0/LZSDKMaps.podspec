@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
     s.dependency 'Alamofire', '5.5.0'
     s.dependency 'RxCocoa', '~> 5.0'
     s.dependency 'RxSwift', '~> 5.0'
-    s.dependency 'MapLibre'
     s.ios.vendored_frameworks = 'LZSDKMaps.xcframework'
+    #s.ios.vendored_frameworks = 'Mapbox.xcframework'
 end
