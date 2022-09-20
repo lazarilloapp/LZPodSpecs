@@ -17,5 +17,8 @@ Pod::Spec.new do |s|
     s.dependency 'RxCocoa', '~> 5.0'
     s.dependency 'RxSwift', '~> 5.0'
     s.dependency 'MapLibre'
+    s.dependency 'ObjectMapper'
+    s.dependency 'RxSwiftExt'
+    s.dependency 'SwiftGraph', '3.1'
     s.ios.vendored_frameworks = 'LZSDKMaps.xcframework'
 end
