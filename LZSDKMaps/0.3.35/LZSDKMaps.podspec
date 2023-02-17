@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
     s.dependency 'MapLibre'
     s.dependency 'RxSwift'
     s.dependency 'RxSwiftExt'
-    s.dependency 'Countly'
     s.dependency 'ReachabilitySwift'
     s.ios.vendored_frameworks = 'LZSDKMaps.xcframework'
 end
